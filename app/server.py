@@ -111,5 +111,4 @@ def disconncet():
 
 
 if __name__ == "__main__":
-    print("working")
-    socketio.run(app, allow_unsafe_werkzeug=True)
+    socketio.run(app ,host="0.0.0.0",port=8000)

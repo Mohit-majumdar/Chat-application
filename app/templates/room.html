@@ -16,6 +16,7 @@
     </button>
   </div>
 </div>
+    <script src="{{url_for('static',filename='js/main.js')}}"></script>
 {% for msg in messages %}
 <script type="text/javascript">
   createMessage("{{msg.name}}", "{{msg.message}}");
